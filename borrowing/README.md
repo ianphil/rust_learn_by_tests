@@ -17,19 +17,19 @@ To effectively demonstrate the concepts of pointers and borrowing in Rust, we sh
 5. [**test_lifetime_of_borrowed_reference**](docs/lifetime_of_borrowed.md)
    - Focuses on lifetimes, ensuring a borrowed reference does not outlive the data it references.
 
-6. **test_struct_borrowing**
+6. [**test_struct_borrowing**](docs/struct_borrowing.md)
    - Applies borrowing concepts to struct fields, demonstrating borrowing individual fields of a struct.
 
-7. **test_borrowing_in_loops**
+7. [**test_borrowing_in_loops**](docs/borrowing_loops.md)
    - Shows how to use borrowing within loops, a common scenario where borrowing rules need careful consideration.
 
-8. **test_dangling_pointer_prevention**
+8. [**test_dangling_pointer_prevention**](docs/dangling_pointer.md)
    - Illustrates Rust’s prevention of dangling pointers through its borrowing and ownership rules.
 
-9. **test_borrowing_slices**
+9. [**test_borrowing_slices**](docs/borrowing_slices.md)
    - Demonstrates borrowing parts of a collection, like slices of an array or vector.
 
-10. **test_function_returning_borrowed_reference**
+10. [**test_function_returning_borrowed_reference**](docs/returning_borrowed.md)
     - Explores the concept of returning borrowed references from functions and the associated lifetime considerations.
 
 This set of 10 tests should provide a comprehensive overview of pointers and borrowing in Rust, covering basic to more complex scenarios. Each test will be designed to not only demonstrate a specific aspect of the borrowing system but also to showcase common pitfalls and best practices. Let's proceed with writing the code for these tests.
