@@ -8,13 +8,13 @@ To effectively demonstrate the concepts of pointers and borrowing in Rust, we sh
 2. [**test_mutable_borrowing**](docs/mutable_borrowing.md)
    - Explores mutable borrowing, illustrating how a function can borrow a value mutably to modify it.
 
-3. **test_multiple_immutable_borrows**
+3. [**test_multiple_immutable_borrows**](docs/multiple_immutable_borrows.md)
    - Highlights the rule that multiple immutable borrows are allowed at the same time.
 
-4. **test_mutable_and_immutable_borrowing_conflict**
+4. [**test_mutable_and_immutable_borrowing_conflict**](docs/conflict_mutable_immutable.md)
    - Shows that Rust disallows simultaneous mutable and immutable borrowing, demonstrating the borrow checker's role in preventing data races.
 
-5. **test_lifetime_of_borrowed_reference**
+5. [**test_lifetime_of_borrowed_reference**](docs/lifetime_of_borrowed.md)
    - Focuses on lifetimes, ensuring a borrowed reference does not outlive the data it references.
 
 6. **test_struct_borrowing**
@@ -33,3 +33,8 @@ To effectively demonstrate the concepts of pointers and borrowing in Rust, we sh
     - Explores the concept of returning borrowed references from functions and the associated lifetime considerations.
 
 This set of 10 tests should provide a comprehensive overview of pointers and borrowing in Rust, covering basic to more complex scenarios. Each test will be designed to not only demonstrate a specific aspect of the borrowing system but also to showcase common pitfalls and best practices. Let's proceed with writing the code for these tests.
+
+To run tests:
+
+
+`cargo test -- --show-output`
